@@ -13,6 +13,8 @@
         <!-- Styles -->
         
         <style>
+
+            
            
             .full-height {
                 height: 100vh;
@@ -71,7 +73,8 @@
             @endif
 
             <div class="content">
-              <form class="modal-content animate" action="app.html">
+                <!-- Con esta línea tiene el formato, pero se pierde la redirección-->
+              <!--form class="modal-content animate" action="app.html"-->
                 <h2>AppSalud Unicauca</h2>
                 <div class="imgcontainer">
                     <img src="plugins/bootstrap/img/profile_is.png" class="img-responsive" alt="Avatar" class="avatar">
@@ -79,7 +82,9 @@
 
                 <div class="container">
                   <center>
-         
+                    <form method="POST" action="{{ route('login') }}">
+                    @csrf
+
                     <input id="email" input type="email" placeholder="Correo electrónico" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
 
                     @if ($errors->has('email'))

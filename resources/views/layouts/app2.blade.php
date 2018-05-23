@@ -1,4 +1,3 @@
-<!--@extends('layouts.app2')-->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -12,18 +11,18 @@
     <title>AppSalud</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="plugins/bootstrap/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="plugins/bootstrap/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Plugin CSS -->
-    <link href="plugins/bootstrap/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="plugins/bootstrap/css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.min.css" rel="stylesheet">
 
   </head>
 
@@ -49,8 +48,8 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacto</a>
             </li>
             <!--li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ route('logout') }}">Salir</a>
-              </li-->
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href={{ route('logout') }}>Salir</a>
+            </li-->
             <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ route('logout') }}"
                     onclick="event.preventDefault();
@@ -62,7 +61,6 @@
                 </form>
                 </a>
             </li>
-
           </ul>
         </div>
       </div>
@@ -71,7 +69,7 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="plugins/bootstrap/img/profile.png" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
         <h1 class="text-uppercase mb-0">Hola Miguel</h1>
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">Comienza tu rutina de Pausas Activas</h2>
@@ -89,11 +87,11 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-arrow-circle-o-right fa-3x"></i>
-                  <h2>Empezar<h2>
+				  <h2>Empezar<h2>
                 </div>
               </div>
               <!--<img class="img-fluid" src="img/portfolio/cabin.png" alt="">-->
-              <img class="img-fluid" src="plugins/bootstrap/img/portfolio/LUNES.png" alt="">
+              <img class="img-fluid" src="img/portfolio/LUNES.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -101,11 +99,11 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-arrow-circle-o-right fa-3x"></i>
-                  <h2>Empezar<h2>
+				  <h2>Empezar<h2>
                 </div>
               </div>
               <!--<img class="img-fluid" src="img/portfolio/cake.png" alt="">-->
-              <img class="img-fluid" src="plugins/bootstrap/img/portfolio/MARTES.png" alt="">
+              <img class="img-fluid" src="img/portfolio/MARTES.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -113,11 +111,11 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-arrow-circle-o-right fa-3x"></i>
-                  <h2>Empezar<h2>
+				  <h2>Empezar<h2>
                 </div>
               </div>
               <!--<img class="img-fluid" src="img/portfolio/circus.png" alt="">-->
-              <img class="img-fluid" src="plugins/bootstrap/img/portfolio/MIERCOLES.png" alt="">
+              <img class="img-fluid" src="img/portfolio/MIERCOLES.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -125,11 +123,11 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-arrow-circle-o-right fa-3x"></i>
-                  <h2>Empezar<h2>
+				  <h2>Empezar<h2>
                 </div>
               </div>
               <!--<img class="img-fluid" src="img/portfolio/game.png" alt="">-->
-              <img class="img-fluid" src="plugins/bootstrap/img/portfolio/JUEVES.png" alt="">
+              <img class="img-fluid" src="img/portfolio/JUEVES.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -137,11 +135,11 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-arrow-circle-o-right fa-3x"></i>
-                  <h2>Empezar<h2>
+				  <h2>Empezar<h2>
                 </div>
               </div>
               <!--<img class="img-fluid" src="img/portfolio/safe.png" alt="">-->
-              <img class="img-fluid" src="plugins/bootstrap/img/portfolio/VIERNES.png" alt="">
+              <img class="img-fluid" src="img/portfolio/VIERNES.png" alt="">
             </a>
           </div>
           <!--<div class="col-md-6 col-lg-4">
@@ -149,7 +147,7 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-arrow-circle-o-right fa-3x"></i>
-                  <h2>Empezar<h2>
+				  <h2>Empezar<h2>
                 </div>
               </div>
               <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
@@ -167,15 +165,15 @@
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p class="lead">Aquí puedes ver tu progreso, el incentivo de la semana es: Un Helado Popsy.</p>
-            <p>[Aquí se presentaría la gráfica y los puntos que se tienen]</p>
+			<p>[Aquí se presentaría la gráfica y los puntos que se tienen]</p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">Ranking de la semana</p>
-            <p>1. Miguel Angel - Puntos: 120</p>
-            <p>2. Laura Camila - Puntos: 110</p>
-            <p>3. Juan Sebastian - Puntos: 110</p>
-            
-            <h5>Manten la posición, ¡vas ganando! :D</h5>
+			<p>1. Miguel Angel - Puntos: 120</p>
+			<p>2. Laura Camila - Puntos: 110</p>
+			<p>3. Juan Sebastian - Puntos: 110</p>
+			
+			<h5>Manten la posición, ¡vas ganando! :D</h5>
           </div>
         </div>
         <div class="text-center mt-4">
@@ -191,9 +189,9 @@
     <section id="contact">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contacto</h2>
-        <hr class="star-dark mb-5">
+		<hr class="star-dark mb-5">
         <h4 class="text-center mb-0">Cuentanos tu experiencia en AppSALUD</h4>
-        <div class="row">
+		<div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
@@ -295,7 +293,7 @@
                   <i class="fa fa-clock-o" aria-hidden="true"></i> 
                   <note id="reloj"> 0 segundos. </note>
                 </h6>
-                <img class="img-fluid mb-5" src="plugins/bootstrap/img/ejercicios/ejercicio1.gif" alt="" name="Diapositiva" id="Diapositiva">
+                <img class="img-fluid mb-5" src="img/ejercicios/ejercicio1.gif" alt="" name="Diapositiva" id="Diapositiva">
                 
                 <!-- Espacio de navegación por los ejercicios -->
                 <div>
@@ -331,7 +329,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Rutina del Martes</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="plugins/bootstrap/img/portfolio/cake.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
               <p class="mb-5">Barra de Progreso</p>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -359,7 +357,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Rutina del Miercoles</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="plugins/bootstrap/img/portfolio/circus.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
               <p class="mb-5">Barra de Progreso</p>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -387,7 +385,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Rutina del Jueves</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="plugins/bootstrap/img/portfolio/game.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
               <p class="mb-5">Barra de Progreso</p>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -415,7 +413,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Rutina del Viernes</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="plugins/bootstrap/img/portfolio/safe.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
               <p class="mb-5">Barra de Progreso</p>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -455,22 +453,22 @@
     </div>-->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="plugins/bootstrap/vendor/jquery/jquery.min.js"></script>
-    <script src="plugins/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="plugins/bootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="plugins/bootstrap/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="plugins/bootstrap/js/jqBootstrapValidation.js"></script>
-    <script src="plugins/bootstrap/js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="plugins/bootstrap/js/freelancer.min.js"></script>
+    <script src="js/freelancer.min.js"></script>
 
     <!-- Script utilizado para la presentación de los ejercicios -->
-    <script src="plugins/bootstrap/js/presentacionEjercicios.js"></script>
+    <script src="js/presentacionEjercicios.js"></script>
 
   </body>
 
