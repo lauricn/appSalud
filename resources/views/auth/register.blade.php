@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">   
 
-
         <link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/registro.css" />
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -80,10 +79,9 @@
             </div>
         @endif
 
-        <div class="card-header">{{ __('Registro') }}</div>
-
         <div class="content">
-          <form class="modal-content animate" action="app.html">
+            <!-- Con esta línea tiene el formato, pero se pierde la redirección-->
+            <!--form class="modal-content animate" action="app.html"-->
             <h2>AppSalud Unicauca</h2>
             <div class="imgcontainer">
                 <img src="plugins/bootstrap/img/profile_is.png" class="img-responsive" alt="Avatar" class="avatar">
